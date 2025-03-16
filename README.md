@@ -34,7 +34,7 @@ Dataset Available at: [Kaggle Dataset](https://www.kaggle.com/competitions/playg
 4. **Train the Model (if needed)**
    Run the model training script to generate `model1.pkl` and `preprocessor.pkl`:
    ```sh
-   python model_training.ipynb
+   python model training.ipynb
    ```
 
 5. **Run the Flask Application**
@@ -48,7 +48,7 @@ Dataset Available at: [Kaggle Dataset](https://www.kaggle.com/competitions/playg
 Diamond-Price-Prediction/
 │── dataset/                # Dataset
 │── notebook/               # Jupyter Notebooks
-│── train_model.py          # Model training script
+│── model training.ipynb    # Model training script
 │── model1.pkl              # Trained model
 │── preprocessor.pkl        # Preprocessing pipeline
 │── templates/              # HTML Templates
